@@ -4,7 +4,6 @@
       v-for="(product, index) in state.products"
       :key="index"
       class="text-left"
-      data-test="Products"
     >
       <img
         :src="product.image"
@@ -17,7 +16,6 @@
   </div>
   <teleport to="body">
     <ReusableModal
-      data-test="ProductModal"
       v-if="isProductModalOpen"
       @closeModal="isProductModalOpen = false"
     >
