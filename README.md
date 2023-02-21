@@ -1,4 +1,5 @@
-# foodics_challenge
+# Ecommerce Page Layout
+Created using Vue 3
 
 ## Project setup
 ```
@@ -22,3 +23,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Authors
+
+- [@Yousef Matar](https://www.github.com/Yousef-Matar)
